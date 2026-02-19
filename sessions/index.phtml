@@ -1,0 +1,22 @@
+<?php
+    session_start();
+    
+
+?>
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice Sessions</title>
+</head>
+<body>
+    <form method="post" action="nickname.php">
+        <label for="nickname">Votre pseudo :</label>
+        <input type="text" name="nickname"/>
+        <br>
+        <button type="submit">Valider</button>
+        <a href="logout.php">Déconnexion</a>
+    </form>
+</body>
+</html>
